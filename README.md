@@ -14,5 +14,5 @@ Screenshots:
 ![Screen2](https://media.githubusercontent.com/media/Shelim/simulations/master/screens/screen2.png)
 ![Screen3](https://media.githubusercontent.com/media/Shelim/simulations/master/screens/screen3.png)
 ![Screen4](https://media.githubusercontent.com/media/Shelim/simulations/master/screens/screen4.png)
-![Screen5](https://media.githubusercontent.com/media/Shelim/simulations/master/screens/screen5.png)
-![Screen6](https://media.githubusercontent.com/media/Shelim/simulations/master/screens/screen6.png)
+![Screen5](https://media.githubusercontent.com/media/Shelim/simulations/master/screens/Screen5.png)
+![Screen6](https://media.githubusercontent.com/media/Shelim/simulations/master/screens/Screen6.png)
