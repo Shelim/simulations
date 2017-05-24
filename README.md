@@ -1,9 +1,9 @@
 # simulations (MiS)
 
-Application written at University for some simulation-related calculations:
- - drawing histograms from various random functions
-  - calculating PI with MonteCarlo and as bonus,
-  - Game of Life
+Application done as homework at University for some simulation-related calculations:
+ - Drawing histograms from various random functions
+ - Calculating PI with MonteCarlo 
+ - And, as bonus, Game of Life
   
 The strict requirenment was to use Dev-cpp 4.9.9.2...
 
