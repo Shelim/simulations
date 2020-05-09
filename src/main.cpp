@@ -58,6 +58,7 @@
 // Standard includes
  
 #include <conio.h>
+#include <ctime>
 #include <cstdarg>
 #include <cstdlib>
 #include <cmath>
@@ -99,7 +100,7 @@ public:
 	void Seed(unsigned int seed)
 	{
 		MT[0] = seed;
-		for(unsigned int i = 0; i < 624; i++)
+		for(unsigned int i = 1; i < 624; i++)
 		{
 			MT[i] = 0xFFFFFFFFul & (1812433253ul * (MT[i-1] ^ ((MT[i-1] >> 30))) + i);
 		}
@@ -246,13 +247,14 @@ void Init()
 
 COORD GetConsoleSize()
 {
+	/*
 	COORD ret = { 80, 25 };
 	return ret;
-	/*
+	*/
 	CONSOLE_SCREEN_BUFFER_INFO csbi;
 	GetConsoleScreenBufferInfo( GetStdHandle(STD_OUTPUT_HANDLE), &csbi );
-	return csbi.dwSize;
-	*/
+	COORD ret = { csbi.srWindow.Right - csbi.srWindow.Left + 1, csbi.srWindow.Bottom - csbi.srWindow.Top + 1 };
+	return ret;
 }
 
 #define KEY_ESCAPE  0
